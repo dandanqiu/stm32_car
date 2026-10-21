@@ -13,3 +13,26 @@
 # eide template
 *.ept
 *.eide-template
+
+# Downloaded device pack and unused CMSIS device examples
+/.pack/
+/.cmsis/device/
+
+# Keil build output and personal session files
+/Objects/
+/Listings/
+/DebugConfig/
+*.uvguix.*
+/template.uvoptx
+*.scvd
+
+# Local editor metadata and logs
+/.vscode/c_cpp_properties.json
+/.vscode/*.log
+/.vscode/*.lock
+
+# Optional font conversion tools and original fonts
+/my_lib/font/*.exe
+/my_lib/font/*.dll
+/my_lib/font/.map
+/my_lib/font/ttfttc/
